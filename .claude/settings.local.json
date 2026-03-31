@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed 's|assets/|screenshots/|g' \"d:/E downloads/unknown/mono_zadatak/BUG_REPORT.md\")",
+      "Bash(\"d:/E downloads/unknown/mono_zadatak/manual-testing/BUG_REPORT.md\")",
+      "Skill(playwright-cli)",
+      "Skill(playwright-cli:*)"
+    ]
+  }
+}

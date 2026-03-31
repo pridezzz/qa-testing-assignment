@@ -1,0 +1,13 @@
+{
+  "name": "photo-gallery-automation",
+  "version": "1.0.0",
+  "description": "Playwright test suite for Photo Gallery QA assignment",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}

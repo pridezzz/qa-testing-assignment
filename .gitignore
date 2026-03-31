@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Playwright artifacts
+automation/playwright-report/
+automation/test-results/
+automation/.playwright-artifacts-*/
+
+# Environment / credentials
+.env
+.env.*
+*.env
+
+# playwright-cli session artifacts (exploration screenshots and snapshots)
+# Exclude root-level and automation-level exploration files only
+/*.png
+/*.yaml
+/automation/*.png
+/automation/*.yaml
+*.json.bak
+.playwright-cli/
+**/.playwright-cli/
+
+# Stray root-level files from playwright-cli sessions
+/node_modules/
+/package.json
+/package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
