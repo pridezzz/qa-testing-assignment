@@ -1,5 +1,7 @@
 # Photo Gallery QA Assignment
 
+[![Playwright Tests](https://github.com/pridezzz/qa-testing-assignment/actions/workflows/playwright.yml/badge.svg)](https://github.com/pridezzz/qa-testing-assignment/actions/workflows/playwright.yml)
+
 ## Structure
 
 ```
