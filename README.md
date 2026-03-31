@@ -94,8 +94,8 @@ npx playwright test --ui
 
 | Status | Count | Reason |
 |--------|-------|--------|
-| Passed | 26 | Feature works correctly |
+| Passed | 29 | Feature works correctly |
 | Failed | 8 | Regression tests documenting **known app bugs** (BUG-002 ×4, BUG-004, BUG-013, BUG-014, and Login disabled-state bug) |
-| Skipped | 4–5 | Upload/delete tests skip when upload button unavailable; social-login test skips if no buttons present |
+| Skipped | 2 | Delete test skips when no user-owned photos exist; social-login test skips if no buttons present |
 
 Failures are **intentional** — they will pass once the corresponding bugs are fixed in the application.
